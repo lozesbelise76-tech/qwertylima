@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Saveurs d'Afrique</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+
+        header {
+            background-color: #7a3e10;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background-color: #4d260b;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+        }
+
+        nav a:hover {
+            background-color: #7a3e10;
+        }
+
+        .hero {
+            background-image: url("https://images.unsplash.com/photo-1604908554027-2e1a5ccbbd6b");
+            background-size: cover;
+            background-position: center;
+            padding: 80px 20px;
+            text-align: center;
+            color: white;
+        }
+
+        .hero h2 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .container {
+            width: 92%;
+            margin: 30px auto;
+            overflow: hidden;
+        }
+
+        .plat {
+            width: 30%;
+            float: left;
+            margin: 1.66%;
+            background-color: white;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+            border-radius: 8px;
+        }
+
+        .plat img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .plat .content {
+            padding: 15px;
+        }
+
+        .plat h3 {
+            margin-top: 0;
+            color: #7a3e10;
+        }
+
+        .about {
+            background-color: white;
+            padding: 30px;
+            margin-top: 40px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            background-color: #4d260b;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+            clear: both;
+        }
+
+        @media (max-width: 900px) {
+            .plat {
+                width: 46%;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .plat {
+                width: 96%;
+            }
+
+            nav a {
+                float: none;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Saveurs d'Afrique</h1>
+    <p>La gastronomie africaine à l'honneur</p>
+</header>
+
+<nav>
+    <a href="#">Accueil</a>
+    <a href="#">Nos plats</a>
+    <a href="#">À propos</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+    <h2>Mets Africains Authentiques</h2>
+    <p>Goût • Tradition • Culture</p>
+</section>
+
+<div class="container">
+
+    <div class="plat">
+        <img src="https://images.unsplash.com/photo-1625944230945-1b7ddf2f58b4" alt="Riz Jollof">
+        <div class="content">
+            <h3>Riz Jollof</h3>
+            <p>Plat emblématique d'Afrique de l’Ouest, épicé et savoureux.</p>
+        </div>
+    </div>
+
+    <div class="plat">
+        <img src="https://images.unsplash.com/photo-1617196039897-2d6c3b9c1dbe" alt="Attiéké Poisson">
+        <div class="content">
+            <h3>Attiéké Poisson</h3>
+            <p>Semoule de manioc accompagnée de poisson braisé.</p>
+        </div>
+    </div>
+
+    <div class="plat">
+        <img src="https://images.unsplash.com/photo-1605475128023-7d1d89c5a3d8" alt="Fufu Sauce Graine">
+        <div class="content">
+            <h3>Fufu & Sauce Graine</h3>
+            <p>Un classique ivoirien riche et nourrissant.</p>
+        </div>
+    </div>
+
+</div>
+
+<div class="container">
+    <div class="about">
+        <h2>À propos</h2>
+        <p>
+            Saveurs d'Afrique est une vitrine dédiée à la richesse culinaire
+            du continent africain. Chaque plat représente une culture,
+            une histoire et un héritage transmis de génération en génération.
+        </p>
+    </div>
+</div>
+
+<footer>
+    <p>© 2026 Saveurs d'Afrique — Tous droits réservés</p>
+</footer>
+
+</body>
+</html>
